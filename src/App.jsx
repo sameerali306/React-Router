@@ -105,28 +105,39 @@ import React from 'react';
 
 
 // import React from 'react'
-import Navigation from './Component/Project1/Navigation';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Component/Project1/Home';
-import Prouct from './Component/Project1/Prouct';
-import Contact from './Component/Project1/Contact';
-import About from './Component/Project1/About';
+// import Navigation from './Component/Project1/Navigation';
+// import { Route, Routes } from 'react-router-dom';
+// import Home from './Component/Project1/Home';
+// import Prouct from './Component/Project1/Prouct';
+// import Contact from './Component/Project1/Contact';
+// import About from './Component/Project1/About';
+
+// function App() {
+//   return (
+//     <>
+//      <Navigation/>
+     
+//     <Routes>
+//       <Route path='/' element={<Home/>}/>
+//       <Route path='/about' element={<About/>}/>
+//       <Route path='/product' element={<Prouct/>}/>
+//       <Route path='/contact' element={<Contact/>}/>
+//     </Routes>
+    
+//     </>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+import Password from './Component/Password/Password';
 
 function App() {
   return (
-    <>
-     <Navigation/>
-     
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/product' element={<Prouct/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-    </Routes>
-    
-    </>
+    <Password/>
   )
 }
 
 export default App
-
