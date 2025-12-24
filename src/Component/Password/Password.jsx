@@ -6,7 +6,7 @@ function Password() {
     const[NumberAllowed,setNumberAllowed]=useState(false)
     const[CharacterAllowed,setCharacterAllowed]=useState(false)
 
-    const [passwordRef]=useRef(null)
+    const passwordRef=useRef(null)
 
 
     const PasswordGenerator=useCallback(()=>{
